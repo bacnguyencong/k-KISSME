@@ -4,6 +4,8 @@
 k-KISSME contains the implementation of Kernel distance metric learning using pairwise constraints for person re-identification.
 For any question, please contact [Bac Nguyen](mailto:Bac.NguyenCong@ugent.be).
 
+## Abstract
+Person re-identification is a fundamental task in many computer vision and image understanding systems. Due to appearance variations from different camera views, person re-identification still poses an important challenge. In the literature, KISSME has already been introduced as an effective distance metric learning method using pairwise constraints to  improve the re-identification performance. Computationally, it only requires two inverse covariance matrix estimations. However, the linear transformation induced by KISSME is not powerful enough for more complex problems. We show that KISSME can be kernelized, resulting in a nonlinear transformation, which is suitable for many real-world applications. Moreover, the proposed kernel method can be used for learning distance metrics from structured objects without having a vectorial representation. The effectiveness of our method is validated on five publicly available data sets. To further apply the proposed kernel method efficiently when data are collected sequentially, we introduce a fast incremental version that learns a dissimilarity function in the feature space without estimating the inverse covariance matrices. The experiments show that the latter variant can obtain competitive results in a computationally efficient manner.
 
 ### Prerequisites
 This has been tested using MATLAB 2010A and later on Windows and Linux (Mac should be fine).
