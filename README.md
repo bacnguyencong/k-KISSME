@@ -11,7 +11,7 @@ Person re-identification is a fundamental task in many computer vision and image
 This has been tested using MATLAB 2010A and later on Windows and Linux (Mac should be fine).
 
 ### Installation
-Download the folder "CMML" into the directory of your choice. Then within MATLAB go to file >> Set path... and add the directory containing "k-KISSME" to the list (if it isn't already). That's it.
+Download the folder "k-KISSME" into the directory of your choice. Then within MATLAB go to file >> Set path... and add the directory containing "k-KISSME" to the list (if it isn't already). That's it.
 
 ### Usage
 
